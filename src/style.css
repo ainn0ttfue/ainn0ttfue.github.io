@@ -1,0 +1,33 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.content {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.works {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.work {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+}
+
+.work__title {
+    font-weight: 400;
+}
+
+.work:hover .work__title {
+    text-decoration: underline;
+}
+
+.work__img {
+    max-width: 450px;
+}
